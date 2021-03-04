@@ -16,8 +16,7 @@ class App extends Component {
     let displayList = this.state.listOfItems.map((elem, index) => {
       return <h2 key={index}>{elem}</h2>
     });
-    return
-    <div className='App'>{displayList}</div>
+    return <div className='App'>{displayList}</div>;
   }
 }
 
